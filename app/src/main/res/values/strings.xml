@@ -5,4 +5,7 @@
     <string name="pastoralema">pastoralema</string>
     <string name="pastorcanadense">pastorcanadense</string>
     <string name="qualcacho">Escolha qual cachorro deseja:</string>
+    <string name="check">Femea</string>
+    <string name="adestrado">Adestrado</string>
+    <string name="vacinas">Com todas as vacinas em dia</string>
 </resources>
