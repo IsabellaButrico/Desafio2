@@ -11,6 +11,11 @@
     tools:context="br.com.fiap.desafio2.rm77273.petshop.MainActivity">
 
 
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        
     <RadioButton
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -38,6 +43,7 @@
         android:id="@+id/cachorro4"
         android:text="@string/pastorcanadense"
         />
+</RadioGroup>
 
 
 
