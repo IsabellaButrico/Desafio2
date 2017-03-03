@@ -34,7 +34,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/cachorro1"
         android:text="@string/bordercollie"
-        />
+        android:checked="true" />
 
     <RadioButton
         android:layout_width="wrap_content"
@@ -61,12 +61,11 @@
 </RadioGroup>
 
 
-
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/check"
-
+            android:id="@+id/femea"
 
         />
 
@@ -75,27 +74,31 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/adestrado"
+        android:id="@+id/adestrado"
         />
 
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/vacinas"
+        android:checked="true"
+        android:id="@+id/vacina"
         />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/botao"
-
+            android:id="@+id/btncalcular"
         />
 
     <TextView
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/calculcar"
         android:text="@string/resultado"
-
+        android:textSize="50sp"
+        android:layout_gravity="center_horizontal"
         />
 
 

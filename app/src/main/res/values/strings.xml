@@ -1,9 +1,9 @@
 <resources>
     <string name="app_name">PetShop</string>
-    <string name="bordercollie">BorderCollie</string>
-    <string name="pitbull">pitbull</string>
-    <string name="pastoralema">pastoralema</string>
-    <string name="pastorcanadense">pastorcanadense</string>
+    <string name="bordercollie">Border Collie R$800,00</string>
+    <string name="pitbull">Pit Bull R$ 750,00</string>
+    <string name="pastoralema">Pastor Alemão R$700,00</string>
+    <string name="pastorcanadense">Pastor Canadense R$800,00</string>
     <string name="qualcacho">Escolha qual cachorro deseja:</string>
     <string name="check">Femea</string>
     <string name="adestrado">Adestrado</string>
