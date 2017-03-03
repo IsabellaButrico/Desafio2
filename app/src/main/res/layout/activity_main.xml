@@ -8,41 +8,54 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="br.com.fiap.desafio2.rm77273.petshop.MainActivity">
+    tools:context="br.com.fiap.desafio2.rm77273.petshop.MainActivity"
+    android:orientation="vertical"
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:text="@string/qualcacho"
+        android:textColor="@color/colorAccent"
+        />
 
 
     <RadioGroup
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        
+
     <RadioButton
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/cachorro1"
         android:text="@string/bordercollie"
         />
 
     <RadioButton
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/cachorro2"
         android:text="@string/pitbull"
         />
 
     <RadioButton
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/cachorro3"
         android:text="@string/pastoralema"
         />
 
     <RadioButton
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/cachorro4"
         android:text="@string/pastorcanadense"
         />
+
+
 </RadioGroup>
 
 
