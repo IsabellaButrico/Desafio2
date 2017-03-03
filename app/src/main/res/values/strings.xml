@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">PetShop77273</string>
+    <string name="app_name">PetShop</string>
     <string name="bordercollie">BorderCollie</string>
     <string name="pitbull">pitbull</string>
     <string name="pastoralema">pastoralema</string>
@@ -8,4 +8,6 @@
     <string name="check">Femea</string>
     <string name="adestrado">Adestrado</string>
     <string name="vacinas">Com todas as vacinas em dia</string>
+    <string name="botao">Calculcar</string>
+    <string name="resultado">0.00</string>
 </resources>

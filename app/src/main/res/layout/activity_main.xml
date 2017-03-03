@@ -19,12 +19,14 @@
         android:textSize="22sp"
         android:text="@string/qualcacho"
         android:textColor="@color/colorAccent"
+
         />
 
 
     <RadioGroup
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        >
 
 
     <RadioButton
@@ -58,10 +60,13 @@
 
 </RadioGroup>
 
+
+
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/check"
+
 
         />
 
@@ -78,6 +83,20 @@
         android:text="@string/vacinas"
         />
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/botao"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/calculcar"
+        android:text="@string/resultado"
+
+        />
 
 
 
