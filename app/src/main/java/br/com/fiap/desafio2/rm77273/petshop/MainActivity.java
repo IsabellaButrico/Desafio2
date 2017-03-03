@@ -5,12 +5,16 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
+import android.widget.RadioButton;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
 
 
      CheckBox femea, adestrado, vacina;
+    RadioButton cachorro1;
+    TextView resultado;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,6 +25,9 @@ public class MainActivity extends AppCompatActivity {
                         femea = (CheckBox) findViewById(R.id.femea);
         adestrado = (CheckBox) findViewById(R.id.adestrado);
         vacina = (CheckBox) findViewById(R.id.vacina);
+        resultado =(TextView) findViewById(R.id.calculcar) ;
+
+
         Button btncalcular = (Button) findViewById(R.id.btncalcular);
 
 
@@ -32,9 +39,14 @@ public class MainActivity extends AppCompatActivity {
     public void botao  (View v){
 
 
-                    double resultado = 0;
+        int resultado;
+        int valorfemea = 180;
+        int valor1 = 800;
 
-        if()
+        if(cachorro1.isChecked() && femea.isChecked())
+            resultado = (valor1 + valorfemea);
+
+
 
     }
 }
