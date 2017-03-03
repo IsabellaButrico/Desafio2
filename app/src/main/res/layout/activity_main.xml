@@ -22,21 +22,21 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/cachorro2"
-        android:text="@string/bordercollie"
+        android:text="@string/pitbull"
         />
 
     <RadioButton
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/cachorro3"
-        android:text="@string/bordercollie"
+        android:text="@string/pastoralema"
         />
 
     <RadioButton
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/cachorro4"
-        android:text="@string/bordercollie"
+        android:text="@string/pastorcanadense"
         />
 
 

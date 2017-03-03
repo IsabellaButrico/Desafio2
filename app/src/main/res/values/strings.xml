@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">PetShop77273</string>
     <string name="bordercollie">BorderCollie</string>
+    <string name="pitbull">pitbull</string>
+    <string name="pastoralema">pastoralema</string>
+    <string name="pastorcanadense">pastorcanadense</string>
 </resources>
