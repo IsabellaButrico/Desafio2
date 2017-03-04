@@ -12,9 +12,9 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-     CheckBox femea, adestrado, vacina;
-    RadioButton cachorro1;
-    TextView resultado;
+    RadioGroup radioGroup;
+    CheckBox femea, adestrado, vacina;
+    TextView calculcar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,10 +22,14 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-                        femea = (CheckBox) findViewById(R.id.femea);
-        adestrado = (CheckBox) findViewById(R.id.adestrado);
-        vacina = (CheckBox) findViewById(R.id.vacina);
-        resultado =(TextView) findViewById(R.id.calculcar) ;
+
+
+
+ 	radioGroup = (RadioGroup)findViewById(R.id.rgGroup);
+    	txtView = (TextView)findViewById(R.id.calcular);
+    	femea = (CheckBox)findViewById(R.id.femea);
+    	adestrado = (CheckBox)findViewById(R.id.adestrado);
+    	vacina = (CheckBox)findViewById(R.id.vacina);
 
 
         Button btncalcular = (Button) findViewById(R.id.btncalcular);
@@ -36,17 +40,55 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-    public void botao  (View v){
+     public void calcular(View v){
+        double valor = 0;
+        double soma = 0;
+        int idRadio = radioGroup.getCheckedRadioButtonId();
+        if(idRadio == R.id.radio_cachorro1){
+            valor = 800.00;
+            txtView.setText("R$ " + valor);
+        }else if(idRadio == R.id.cachorro2){
+            valor = 750.00;
+            txtView.setText("R$ " + valor);
+        }else if(idRadio == R.id.cachorro3){
+            valor = 700.00;
+            txtView.setText("R$ " + valor);
+        }else if(idRadio == R.id.cachorro4){
+            valor = 800.00;
+            txtView.setText("R$ " + valor);
+        }else{
+            valor = 00.00;
+            txtView.setText("R$ " + valor);
+        }
 
 
-        int resultado;
-        int valorfemea = 180;
-        int valor1 = 800;
-
-        if(cachorro1.isChecked() && femea.isChecked())
-            resultado = (valor1 + valorfemea);
 
 
+ if(femea.isChecked()){
+            soma = 180.00;
+            valor = (valor + soma);
+            txtView.setText("R$ " + valor);
+        }
+        if(adestrado.isChecked()){
+            soma = 400.00;
+            valor = (valor + soma);
+            txtView.setText("R$ " + valor);
+        }
+        if(vacina.isChecked()){
+            soma = 200.00;
+            valor = (valor + soma);
+            txtView.setText("R$ " + valor);
+        }
+
+        if(femea.isChecked() == false && adestrado.isChecked() == false && vacina.isChecked() == false){
+            soma = 0;
+            valor = (valor + soma);
+            txtView.setText("R$ " + valor);
+        }
 
     }
 }
+
+
+
+
