@@ -26,12 +26,12 @@
     <RadioGroup
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-	android:id="@+id/rgGroup
+	android:id="@+id/grupo"
         >
 
 
     <RadioButton
-        android:layout_width="wrap_content"
+         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/cachorro1"
         android:text="@string/bordercollie"
@@ -89,9 +89,9 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/btn"
+        android:text="Calcular"
             android:id="@+id/btncalcular"
-                android:onClick="botao"
+                android:onClick="Calcular"
         />
 
     <TextView
